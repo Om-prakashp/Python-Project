@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Load the electricity data
+# Load the electricity data 
 df = pd.read_csv("CONV.csv")
 
 # Step 1: Initial Overview
@@ -16,7 +16,7 @@ print(df.isnull().sum())
 def main_menu():
     while True:
         print("\n🔌 E-Consumption Analyzer 🔌")
-        print("1. Dataset Overview & Insights")
+        print("1. Dataset Overview $Insights")
         print("2. Built_In Analytical Dashboards")
         print("3. Exit")
 
