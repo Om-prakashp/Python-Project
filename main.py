@@ -17,7 +17,7 @@ def main_menu():
     while True:
         print("\n🔌 E-Consumption Analyzer 🔌")
         print("1. Dataset Overview & Insights")
-        print("2. Built-In Analytical Dashboards")
+        print("2. Built_In Analytical Dashboards")
         print("3. Exit")
 
         choice = input("Select an option (1-3): ")
