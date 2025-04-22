@@ -9,7 +9,7 @@ import seaborn as sns
 df = pd.read_csv("CONV.csv")
 
 # Step 1: Initial Overview
-print("Checking for missing data...\n")
+print("Checking for missing data.>.\n")
 print(df.isnull().sum())
 
 # Main Interactive Interface
